@@ -93,6 +93,6 @@ def detail_view_user_by_id(id):
     else:
         print(f"Пользователь с id {id} не существует.")
 
-detail_view_user_by_id(4)
+# detail_view_user_by_id(4)
 
 db.close()
